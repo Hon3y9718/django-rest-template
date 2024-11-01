@@ -44,6 +44,6 @@
 
 This project will run on Daphne Server by default and have Websocket setup for ease.
 
-# Run with Docker
+# Docker Compose
 
 1. Docker Compose - ``` docker-compose up --build ```

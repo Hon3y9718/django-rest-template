@@ -1,5 +1,5 @@
 # Setup
-## .env
+## Create .env on Root
 
 ### Allowed Domain
 - ALLOWED_DOMAIN=https://domain.com (https://*.domain.com - for Subdomains)
@@ -11,7 +11,7 @@
 - DB_HOST=ip/host
 - DB_PORT=port
 
-Note: This is setup to use Postgres
+> Note: This is setup to use Postgres
 
 ### Email (SMTP)
 - EMAIL_HOST=SMTPDomain
@@ -19,6 +19,8 @@ Note: This is setup to use Postgres
 - EMAIL_PORT=PORT
 - EMAIL_HOST_USER=EmailID
 - EMAIL_HOST_PASSWORD=Password
+
+> Note: SMTP Supported will extend to other options with helper functions.
 
 ### AWS S3
 - AWS_ACCESS_KEY_ID=ID
@@ -29,3 +31,15 @@ Note: This is setup to use Postgres
 - AWS_S3_FILE_OVERWRITE=True/False
 - AWS_DEFAULT_ACL=None/ACL
 - AWS_S3_VERITY=True/False
+
+> Note: Will expand to Azure/GCP as well
+
+# Run
+
+1. Fork - <a href="https://github.com/Hon3y9718/django-rest-template/fork">Fork this repo</a>
+2. Clone - ``` git clone repo-name ```
+3. Setup Virtual Environment - ``` python3 -m venv virtualenvname ```
+4. Install Requirements - ``` pip install -r requirements.txt ```
+5. Run - ``` python manage.py runserver ```
+
+This project will run on Daphne Server by default and have Websocket setup for ease.

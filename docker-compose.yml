@@ -11,8 +11,3 @@ services:
     volumes:
       - .:/app  # Mount your application directory to the container
     restart: unless-stopped  # Restart policy
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://opapi.techicious.store"]  # Adjust this endpoint
-      interval: 30s
-      timeout: 10s
-      retries: 3

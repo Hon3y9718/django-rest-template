@@ -36,14 +36,16 @@
 
 # Run
 
+## Virtual Environment
+
 1. Fork - <a href="https://github.com/Hon3y9718/django-rest-template/fork">Fork this repo</a>
 2. Clone - ``` git clone repo-name ```
 3. Setup Virtual Environment - ``` python3 -m venv virtualenvname ```
 4. Install Requirements - ``` pip install -r requirements.txt ```
 5. Run - ``` python manage.py runserver ```
 
-This project will run on Daphne Server by default and have Websocket setup for ease.
+> Note: This project will run on Daphne Server by default and have Websocket setup for ease.
 
-# Docker Compose
+## Docker Compose
 
 1. Docker Compose - ``` docker-compose up --build ```

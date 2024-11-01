@@ -43,3 +43,7 @@
 5. Run - ``` python manage.py runserver ```
 
 This project will run on Daphne Server by default and have Websocket setup for ease.
+
+# Run with Docker
+
+1. Docker Compose - ``` docker-compose up --build ```

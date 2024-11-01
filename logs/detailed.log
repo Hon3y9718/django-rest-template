@@ -1,0 +1,6 @@
+INFO 2024-11-01 16:57:23,163 MainThread 8235627072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 11379 Watching for file changes with StatReloader
+INFO 2024-11-01 16:58:13,965 MainThread 8235627072 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 11379 /Users/umesh/Desktop/automation/django-rest-api/main/main/settings.py changed, reloading.
+INFO 2024-11-01 16:58:14,523 MainThread 8235627072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 11875 Watching for file changes with StatReloader
+INFO 2024-11-01 16:58:30,260 MainThread 8235627072 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 11875 /Users/umesh/Desktop/automation/django-rest-api/main/message/models.py changed, reloading.
+INFO 2024-11-01 16:58:30,850 MainThread 8235627072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 12042 Watching for file changes with StatReloader
+INFO 2024-11-01 16:58:47,793 MainThread 8235627072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 12237 Watching for file changes with StatReloader
